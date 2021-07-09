@@ -3,7 +3,7 @@ package level1;
 // 그리디 알고리즘 - 체육복
 import java.util.HashMap;
 
-public class GymSuit {
+public class GymSuit { 
 	
 	public int solution(int n, int[] lost, int[] reserve) {
 		int answer = n-lost.length;	// 우선 체육복을 가져온 학생 수를 answer에 저장
