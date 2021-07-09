@@ -10,7 +10,7 @@ public class SumBetween {
         	answer = a;
         	return answer;
         }
-        // a가 b보다 큰 경우 두 숫자를 치환
+        // a가 b보다 큰 경우 두 숫자를 치환 
         else if(a>b) {
         	int c = a;
         	a = b;
