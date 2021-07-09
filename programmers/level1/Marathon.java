@@ -10,7 +10,7 @@ public class Marathon {
         String answer = "";
         HashMap<String,Integer> listMap = new HashMap<String,Integer>();
         
-        // 참가자 명단을 listMap에 추가 (이름, 해당 이름을 가진 사람 수 + 1)
+        // 참가자 명단을 listMap에 추가 (이름, 해당 이름을 가진 사람 수 + 1) 
         for(int i=0; i<participant.length; i++) {
             if(listMap.containsKey(participant[i])) {
                 listMap.put(participant[i], listMap.get(participant[i])+1);
