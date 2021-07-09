@@ -11,7 +11,7 @@ public class Keypad {
         int leftLen = 0;
         int rightLen = 0;
         int center = 0;
-        // 키패드의 숫자별 y값을 hashMap에 기본값으로 저장
+        // 키패드의 숫자별 y값을 hashMap에 기본값으로 저장 
         // y\x|  0   1   2
         //ㅡㅡㅡ|ㅡㅡㅡㅡㅡㅡㅡㅡㅡ
         //  0 |  1   2   3
