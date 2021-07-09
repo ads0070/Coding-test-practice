@@ -4,7 +4,7 @@ package level1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClawCrane {
+public class ClawCrane { 
 	public int solution(int[][] board, int[] moves) {
         int answer = 0;
         int[] topLoc = new int[board.length];	// 위치 별로 가장 최근에 인형이 뽑혔던 y값을 저장할 topLoc 배열 선언
