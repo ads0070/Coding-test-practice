@@ -69,10 +69,10 @@ public class test {
 		System.out.println(rate.solution(stage, stages));*/
 		
 		// 키패드 누르기
-		Keypad btn = new Keypad();
+		/*Keypad btn = new Keypad();
 		int[] nums = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
 		String hand = "left";
-		System.out.println(btn.solution(nums, hand));
+		System.out.println(btn.solution(nums, hand));*/
 	}
 
 }
