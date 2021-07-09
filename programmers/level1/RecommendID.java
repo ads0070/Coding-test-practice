@@ -9,7 +9,7 @@ public class RecommendID {
         String answer = "";
         int[] Special_Char = {45,46,95};
         
-        // 1단계. new_id의 모든 대문자를 대응되는 소문자로 치환
+        // 1단계. new_id의 모든 대문자를 대응되는 소문자로 치환 
         new_id = new_id.toLowerCase();
         //System.out.println("1단계: "+new_id);
         
