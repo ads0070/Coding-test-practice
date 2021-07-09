@@ -3,7 +3,7 @@ package level1;
 //¿¹»ê
 import java.util.Arrays;
 
-public class Budget {
+public class Budget { 
 	public int solution(int[] r, int budget) {
         int answer = 0;
         int total = 0;
