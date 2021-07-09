@@ -1,7 +1,7 @@
 package level1;
 
 // 2016년
-public class GetDay {
+public class GetDay { 
 	public String solution(int a, int b) {
 		int[] months = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};	 // 월별 일 수를 미리 저장
 		String[] dayOftheWeek = {"SUN","MON","TUE","WED","THU","FRI","SAT"};
