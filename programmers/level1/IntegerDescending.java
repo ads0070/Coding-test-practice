@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class IntegerDescending {
+public class IntegerDescending { 
 	public long solution(long n) {
         long answer = 0;
         
