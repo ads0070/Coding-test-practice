@@ -15,7 +15,7 @@ public class SelectAndAdd {
         
         hashSet = combination(numbers, visited, 0, n, 2, hashSet);
         
-        // 순서가 없는 hashSet을 hashList로 변환하여 오름차순 정렬
+        // 순서가 없는 hashSet을 hashList로 변환하여 오름차순 정렬 
         List<Integer> hashList = new ArrayList<>(hashSet);
         hashList.sort(Comparator.naturalOrder());
         
