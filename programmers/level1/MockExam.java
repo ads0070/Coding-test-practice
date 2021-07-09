@@ -24,7 +24,7 @@ public class MockExam {
         	}
         }
         
-        // 각 수포자의 정답 개수 중 최댓값을 max에 저장
+        // 각 수포자의 정답 개수 중 최댓값을 max에 저장 
         int max = 0;
         
         for(int i = 0; i < 3; i++) {
