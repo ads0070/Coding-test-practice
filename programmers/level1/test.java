@@ -57,6 +57,22 @@ public class test {
 		ClawCrane game = new ClawCrane();
 		System.out.println(game.solution(board,moves));*/
 		
+		// 예산
+		/*Budget b = new Budget();
+		int[] request = {1,3,2,5,4};
+		System.out.println(b.solution(request,9));*/
+		
+		// 실패율
+		/*FailureRate rate = new FailureRate();
+		int[] stages = {2, 1, 10, 6, 2, 4, 3, 3};
+		int stage = 11;
+		System.out.println(rate.solution(stage, stages));*/
+		
+		// 키패드 누르기
+		Keypad btn = new Keypad();
+		int[] nums = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
+		String hand = "left";
+		System.out.println(btn.solution(nums, hand));
 	}
 
 }
