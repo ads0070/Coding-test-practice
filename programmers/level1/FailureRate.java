@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class FailureRate {
+public class FailureRate { 
 	public List<Integer> solution(int N, int[] stages) {
         int len = stages.length;
         int[] count = new int[N];
