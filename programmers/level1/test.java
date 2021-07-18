@@ -1,5 +1,7 @@
 package level1;
 
+import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.List;
 
 public class test {
@@ -73,6 +75,54 @@ public class test {
 		int[] nums = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
 		String hand = "left";
 		System.out.println(btn.solution(nums, hand));*/
+
+		// [1차] 비밀지도
+		/*SecretMap map = new SecretMap();
+		int n = 6;
+		int[] map1 = {46, 33, 33 ,22, 31, 50};
+		int[] map2 = {27 ,56, 19, 14, 14, 10};
+		System.out.println(Arrays.toString(map.solution(n, map1, map2)));*/
+
+		// 문자열 내 p와 y의 개수
+		/*CountPY py = new CountPY();
+		String s = "pPoooyY";
+		System.out.println(py.solution(s));*/
+
+		// 문자열 다루기 기본
+		/*ValidatingStrings vs = new ValidatingStrings();
+		System.out.println(vs.solution("1256"));*/
+
+		// 문자열 내림차순으로 배치하기
+		/*SortDescending sortStr = new SortDescending();
+		System.out.println(sortStr.solution("Zcdgeab"));*/
+
+		// 문자열을 정수로 바꾸기
+		/*StringToInteger convert = new StringToInteger();
+		System.out.println(convert.solution("-1234"));*/
+
+		// 문자열 내 마음대로 정렬하기
+		/*SortAtWill atwill = new SortAtWill();
+		String[] str = {"abce", "abcd", "cdx"};
+		System.out.println(Arrays.toString(atwill.solution(str, 2)));*/
+
+		// 핸드폰 번호 가리기
+		/*HideNumber hn = new HideNumber();암호화
+		System.out.println(hn.solution("01033334444"));*/
+
+		// 시저 암호
+		/*CaesarCipher encryption = new CaesarCipher();
+		String s = "a B z";
+		int n = 4;
+		System.out.println(encryption.solution(s, n));*/
+
+		// 콜라츠 추측
+		/*CollatzGuess guess = new CollatzGuess();
+		System.out.println(guess.solution(626331));*/
+
+		// 하샤드 수
+		/*HarshadNumber harshadNum = new HarshadNumber();
+		System.out.println(harshadNum.solution(13));*/
+
 	}
 
 }
