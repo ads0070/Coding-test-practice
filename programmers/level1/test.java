@@ -123,6 +123,12 @@ public class test {
 		/*HarshadNumber harshadNum = new HarshadNumber();
 		System.out.println(harshadNum.solution(13));*/
 
+		// K¹øÂ°¼ö
+		KthNumber knum = new KthNumber();
+		int[] arr = {1, 5, 10, 6, 3, 7, 4};
+		int[][] commands = {{2,5,3},{4,4,1},{1,7,3}};
+		System.out.println(Arrays.toString(knum.solution(arr, commands)));
+
 	}
 
 }
