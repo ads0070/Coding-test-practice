@@ -202,6 +202,27 @@ public class test {
 		/*DivisibleNumber divNum = new DivisibleNumber();
 		int[] arr = {5, 9, 7, 10};
 		System.out.println(divNum.solution(arr, 5));*/
-
+		
+		//직사각형 별찍기
+		/*PrintStars star = new PrintStars();
+		star.main(args);*/
+		
+		// 자연수 뒤집어 배열로 만들기
+		/*IntToArray arr = new IntToArray();
+		System.out.println(arr.solution(12345));*/
+		
+		// [1차] 다트 게임
+		/*DartsGame dart = new DartsGame();
+		System.out.println(dart.solution("1S2D*3T"));*/
+		
+		// 평균 구하기
+		/*GetAverage avg = new GetAverage();
+		int[] arr = {1,2,3,4};
+		System.out.println(avg.solution(arr));*/
+		
+		// 약수의 합
+		/*SumOfDivisors sumDiv = new SumOfDivisors();
+		System.out.println(sumDiv.solution(12));*/
+		
 	}
 }
