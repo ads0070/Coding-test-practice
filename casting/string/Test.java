@@ -4,6 +4,6 @@ public class Test {
 	public static void main(String[] args) {
 		StringTo sti = new StringTo();
 		String s = "38392";
-		System.out.println("int : "+sti.casting_StringToInteger(s));
+		System.out.println("int : "+sti.convert_StringToInteger(s));
 	}
 }
