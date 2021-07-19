@@ -1,6 +1,5 @@
 package level1;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
 
@@ -75,6 +74,54 @@ public class test {
 		int[] nums = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
 		String hand = "left";
 		System.out.println(btn.solution(nums, hand));*/
+
+		// 내적
+		/*DotProduct dot = new DotProduct();
+		int[] a = {1,2,3,4};
+		int[] b = {-3,-1,0,2};
+		System.out.println(dot.solution(a, b));*/
+		
+		// 폰켓몬
+		/*Pokemon poke = new Pokemon();
+		int[] nums = {3,1,2,3};
+		System.out.println(poke.solution(nums));*/
+		
+		// 음양 더하기
+		/*AddInteger add = new AddInteger();
+		int[] abs = {4,7,12};
+		boolean[] signs = {true,false,true};
+		System.out.println(add.solution(abs, signs));*/
+		
+		// 로또의 최고 순위와 최저 순위
+		/*Lotto lotto = new Lotto();
+		int[] lottos = {1,2,3,4,5,6};
+		int[] winNums = {7,8,9,10,11,12};
+		int[] answer = lotto.solution(lottos, winNums);
+		System.out.println(answer[0]+", "+answer[1]);*/
+		
+		// 소수 만들기
+		/*MakePrimeNumber pnum = new MakePrimeNumber();
+		int[] nums = {1,2,7,6,4};
+		System.out.println(pnum.solution(nums));*/
+		
+		// 3진법 뒤집기
+		/*FlipOver flip = new FlipOver();
+		System.out.println(flip.solution(125));*/
+		
+		// 약수의 개수와 덧셈
+		/*Divisor div = new Divisor();
+		System.out.println(div.solution(13, 17));*/
+		
+		// 숫자 문자열과 영단어
+		/*ChangeToNumber game = new ChangeToNumber();
+		String str = "23four5six7";
+		System.out.println(game.solution(str));*/
+		
+		// 같은 숫자는 싫어
+		/*Deduplication deduplication = new Deduplication();
+		int[] arr = {1,1,3,3,0,1,1};
+		int[] answer = deduplication.solution(arr);
+		for (int i : answer) System.out.println(i);*/
 
 		// [1차] 비밀지도
 		/*SecretMap map = new SecretMap();
