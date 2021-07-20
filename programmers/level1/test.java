@@ -223,6 +223,30 @@ public class test {
 		// 약수의 합
 		/*SumOfDivisors sumDiv = new SumOfDivisors();
 		System.out.println(sumDiv.solution(12));*/
-		
+
+		// 정주 제곱근 판별
+		/*SquareRoot isSqrt = new SquareRoot();
+		System.out.println(isSqrt.solution(121));*/
+
+		// 행렬의 덧셈
+		/*AdditionOfMatrices am = new AdditionOfMatrices();
+		int[][] arr1 = {{1},{2}};
+		int[][] arr2 = {{3},{4}};
+		System.out.println(Arrays.deepToString(am.solution(arr1, arr2)));*/
+
+		// 자릿수 더하기
+		/*AddDigits ad = new AddDigits();
+		System.out.println(ad.solution(123));*/
+
+		// 최대공약수의 최소공배수
+		/*GreatestAndLeast gl = new GreatestAndLeast();
+		System.out.println(Arrays.toString(gl.solution(10, 20)));*/
+
+		// 짝수와 홀수
+		/*EvenAndOdd ed = new EvenAndOdd();
+		System.out.println(ed.solution(3));*/
+
+
+
 	}
 }
