@@ -246,7 +246,13 @@ public class test {
 		/*EvenAndOdd ed = new EvenAndOdd();
 		System.out.println(ed.solution(3));*/
 
+		// 소수 찾기
+		/*PrimeNumber pnum = new PrimeNumber();
+		System.out.println(pnum.solution(10));*/
 
+		// [1차] 다트 게임
+		/*DartsGame darts = new DartsGame();
+		System.out.println(darts.solution("1S*2T*3S"));*/
 
 	}
 }
