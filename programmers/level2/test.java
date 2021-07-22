@@ -10,7 +10,11 @@ public class test {
         int loc = 0;
         System.out.println(p.solution(priorities, loc));*/
 
-
+        // ´õ ¸Ê°Ô
+        MoreSpicy spicy = new MoreSpicy();
+        int[] scoville = {1, 2, 3, 9, 10, 12};
+        int k = 7;
+        System.out.println(spicy.solution(scoville, k));
 
 
     }
