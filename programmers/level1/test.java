@@ -224,7 +224,7 @@ public class test {
 		/*SumOfDivisors sumDiv = new SumOfDivisors();
 		System.out.println(sumDiv.solution(12));*/
 
-		// 정주 제곱근 판별
+		// 정수 제곱근 판별
 		/*SquareRoot isSqrt = new SquareRoot();
 		System.out.println(isSqrt.solution(121));*/
 
