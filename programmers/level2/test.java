@@ -12,7 +12,7 @@ public class test {
 
         // ´õ ¸Ê°Ô
         MoreSpicy spicy = new MoreSpicy();
-        int[] scoville = {1, 2, 3, 9, 10, 12};
+        int[] scoville = {10, 2, 3, 9, 1, 12};
         int k = 7;
         System.out.println(spicy.solution(scoville, k));
 
